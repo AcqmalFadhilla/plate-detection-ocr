@@ -1,0 +1,3 @@
+ultralytics==8.2.51
+streamlit
+transformers==4.42.3
