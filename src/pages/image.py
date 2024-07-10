@@ -2,7 +2,7 @@ import streamlit as st
 import sys
 import os
 from ultralytics import YOLO
-os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 from src.utilities import process_image, save_uploaded
 
 st.title("Image Plate Detection and OCR")
