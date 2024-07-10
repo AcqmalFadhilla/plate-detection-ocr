@@ -1,4 +1,4 @@
 ultralytics==8.2.51
 streamlit
 transformers==4.42.3
-opencv-python==4.10.0.84
+opencv-python
