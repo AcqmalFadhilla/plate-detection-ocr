@@ -16,5 +16,5 @@ if data is not None:
         image_path = save_uploaded(data)
         with st.spinner("In progress..."):
             process_image(data_path=image_path, 
-                        model=model,
-                        confidence_threshold=0.4)
+                         model=model,
+                         confidence_threshold=0.4)
